@@ -1,0 +1,5 @@
+.env
+package-lock.json
+node_modules/
+input_files/*.ttf
+input_files/*.xlsx
