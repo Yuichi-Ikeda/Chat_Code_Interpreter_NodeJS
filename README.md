@@ -34,12 +34,12 @@ const thread = await client.beta.threads.create({
 
 ## ES Modules（推奨）/ CommonJS
 
-本プロジェクトには、ES Modules（推奨）/ CommonJS 両方の実装が含まれています。既定値は `main_EMS.js` となっています。CommonJS に返る場合は、`package.json` の `main` と `type` フィールドを変更してください。
+本プロジェクトには、ES Modules（推奨）/ CommonJS 両方の実装が含まれています。既定値は `main_EMS.js` となっています。CommonJS にする場合は、`package.json` の `main` と `type` フィールドを変更してください。
 
 - 新しいプロジェクトやブラウザと互換性を持たせたい場合 → ESM ("type": "module") 
 - 古い Node.js のコードや互換性のために必要 → CommonJS ("type": "commonjs")
 
-デバッグ実行をする際には `.vscode` フォルダの `launch.json` のプログラムしても一致する .js ファイルを指定してください。
+デバッグ実行をする際には `.vscode` フォルダの `launch.json` のプログラム指定も一致する .js ファイルを指定する必要があります。
 
 ## セットアップ
 
