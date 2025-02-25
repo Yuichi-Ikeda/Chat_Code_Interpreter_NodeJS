@@ -65,6 +65,7 @@ const deploymentName = process.env.DEPLOYMENT_NAME;
         }]
       }]
     });
+    console.log(`Thread created successfully. Thread ID: ${thread.id}`);
     console.log("Chat session started. Type 'exit' to end the session.");
 
     // 標準入力の設定
